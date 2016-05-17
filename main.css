@@ -84,16 +84,81 @@ a, input {
     border: none;
 }
 
-
 /* Exercise 10 */
 #navigation {
+    line-height: 30px;
     list-style-type: none;
-    margin: 0;
+    background-color: #ed828a;
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    border-radius: 5px;
+}
+
+#navigation li {
+    float: left;
+}
+
+#navigation li a {
+    display: block;
+    padding: 5px 50px;
+    background-color: none;
+}
+
+#navigation li a:hover {
+    background-color: white;
+    color: #ed828a;
+}
+
+
+/* Exercise 11 */
+
+.pagination {
     padding: 0;
 }
 
-.navigation-bar {
-    display: inline;
-    width: 150px;
-    padding: 15px 0px 15px 0px;
+.pagination li {
+    display: inline-block;
+    padding-left: 0;
 }
+
+.pagination li a, .pagination li span {
+    background-color: white;
+    color: #ed828a;
+    font-size: 18px;
+    padding: 5px 15px;
+    border-radius: 0;
+}
+
+.pag-number {
+    border-bottom: 3px solid #ed828a;
+}
+
+.pagination li a:hover, .pagination li span:hover {
+    border-bottom: 3px solid #cccccc;
+    color: #cccccc;
+}
+
+
+
+/* Exercise 12 */
+.text {
+    overflow: hidden;
+    padding: 8px;
+}
+
+.image {
+    float: left;
+    clear: left;
+    padding: 8px;
+}
+
+.parent {
+    clear: left;
+}
+
+.time {
+    font-size: 12px;
+    color: #c9ced8;
+}
+
