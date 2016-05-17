@@ -1,1 +1,42 @@
 /* ADD YOUR STYLES HERE */
+
+
+/* Exercise 6 Part 1 */
+#lesson-6 {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 5%;
+}
+
+.horizontal {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* Exercise 6 Part 2 */
+.different {
+   float: left;
+   padding-left: 25px;
+   padding-right: 25px;
+}
+
+.top-margin {
+    margin-top: 20px;
+}
+
+
+/* Exercise 7 */
+.vertical {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+/* Exercise 7 Part 2 */
+#different-vertical {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
