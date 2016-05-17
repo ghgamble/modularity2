@@ -40,3 +40,30 @@
     margin-bottom: 15%;
 }
 
+
+/* Exercise 8 */
+#horizontal-list {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+}
+
+#horizontal-list li {
+    float: left;
+}
+
+
+/* Exercise 9 */
+a, input {
+    display: inline-block;
+    background-color: #ed828a;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+#button-1 {
+    font-size: 16px;
+    padding: 15px 30px 15px 30px;
+}
+
