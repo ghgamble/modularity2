@@ -53,7 +53,7 @@
 }
 
 
-/* Exercise 9 */
+/* Exercise 9 Part 1 */
 a, input {
     display: inline-block;
     background-color: #ed828a;
@@ -63,7 +63,37 @@ a, input {
 }
 
 #button-1 {
-    font-size: 16px;
-    padding: 15px 30px 15px 30px;
+    font-size: 25px;
+    padding: 20px 50px 20px 50px;
 }
 
+#button-2 {
+    font-size: 16px;
+    padding: 10px 40px 10px 40px;
+}
+
+#button-3 {
+    font-size: 16px;
+    padding: 5px 5px 5px 5px;
+}
+
+
+/* Exercise 9 Part 2 */
+.buttons-2 {
+    padding: 10px 40px 10px 40px;
+    border: none;
+}
+
+
+/* Exercise 10 */
+#navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-bar {
+    display: inline;
+    width: 150px;
+    padding: 15px 0px 15px 0px;
+}
