@@ -162,3 +162,44 @@ a, input {
     color: #c9ced8;
 }
 
+
+
+/* Exercise 13 */
+.tabs {
+    margin: 0px;
+    padding: 0px;
+}
+
+.tabs li {
+    list-style: none;
+    display: inline;
+    padding: 5px;
+}
+
+.tabs li a {
+    color: #001ff4;
+    background-color: white;
+    font-size: 16px;
+    padding: 8px 14px 8px 14px;
+    text-decoration: none;
+    font-weight: bold;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+#content {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#tab-2 {
+    z-index: 2;
+    position: relative;
+    top: 2px;
+    padding-top: 10px;
+}
+
+
